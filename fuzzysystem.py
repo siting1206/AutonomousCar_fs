@@ -80,7 +80,7 @@ class FuzzySystem:
                 else:
                     return 0
             elif case(self.MEDIUM):
-                px1 = 10.0
+                px1 = 9.0
                 px2 = 13.0
                 px3 = 17.0
                 if df < px1:
@@ -92,7 +92,7 @@ class FuzzySystem:
                 else:
                     return 0
             elif case(self.LARGE):
-                if df > 20:
+                if df > 17:
                     return 1
                 else:
                     return 0
